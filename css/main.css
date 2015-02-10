@@ -6,17 +6,30 @@ header{
 }
 
 h1 {
-  font-size:4rem;
+  font-size:5rem;
   font-family:'Sigmar One',sans-serif;
   line-height:1.5;
   margin:.5em;
+  padding: 1em;
+}
+
+p{
+  margin: 0.75em;
+  line-height: 1.5em;
 }
 
 h2 {
-  font-size:3rem;
+  font-size:4rem;
   font-family:'Sigmar One',sans-serif;
   line-height:1.5;
   border-top:solid #ffe524 0.5rem;
+  margin: 0.75em;
+  padding: 0.5em 0.5em;
+  color:#b32f52;
+}
+
+img {
+  width: 100%;
 }
 
 main {
@@ -59,16 +72,12 @@ figcaption {
   font-style:italic;
   font-size:.8rem;
 }
-h2{
-  font-family:'Sigmar One',sans-serif;
-  margin: 1rem;
-  color:#b32f52;
-}
 
 h3{
   font-family:'Sigmar One',sans-serif;
-  margin: 5rem;
+  margin: 1em;
   color:#b32f52;
+  font-size:2rem;
 }
 
 h4{
@@ -103,6 +112,7 @@ blockquote{
 }
 body {
   margin:0;
+  font-family:'Georgia',sans-serif;
 }
 
 h1 {
@@ -114,8 +124,9 @@ h1 {
 }
 
 a{
-  background-color: #79756f;
+  color: #79756f;
   display:block;
+  text-align:center;
 }
 
 nav{
@@ -155,10 +166,30 @@ figure{
 }
 
 img {
-  width:100%
+  width:100%;
 }
 
 footer {
   background-color:#ffe524;
-  padding: 2em 2em 2em
+  padding: 2em 2em 2em;
+  color:#b32f52;
+}
+
+dt {
+  font-weight:bold;
+  font-size:2rem;
+  font-style:normal;
+  font-family:'Georgia',sans-serif;
+
+}
+
+dl{
+  margin: 0.75em;
+  font-size:2rem;
+  font-weight:normal;
+}
+
+dd{
+margin: 0;
+line-height: 2;
 }
